@@ -14,7 +14,8 @@ public class Main {
 
         var patients = List.of(new Patient(12,"David","Peter","233","Saka@gmail.com","1990-02-23"),
                 new Patient(13,"Paul","John","244","paul@gmail.cm", "1990-03-23"),
-                new Patient(14,"Stephen","Ken","2443","kenka@gmail.cm", "1990-04-23"));
+                new Patient(14,"Stephen","Ken","2443","kenka@gmail.cm", "1990-04-23"),
+        new Patient(15,"Step","Pen","24743","kena@gmail.cm", "1990-04-23"));
         patients.forEach(System.out::println);
     }
 
